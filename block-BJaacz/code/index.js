@@ -12,6 +12,7 @@
   Create a function named addFive which accepts a number, adds 5 to the number and return the new value.
 */
 
+
 /*
   Create a function named addTwoToArray which accepts:
     - An array of numbers
