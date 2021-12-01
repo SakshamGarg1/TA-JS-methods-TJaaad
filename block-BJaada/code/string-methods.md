@@ -9,10 +9,11 @@ Go to this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refere
 Only if you are done with step 1 you should go ahead.
 
 1. Practice it by yourself in console (4-5 times to understand)
-2. Data types of parameters
-3. Return value type
-4. Write three examples
-5. In your own words and one sentence explain what this method does.
+2. 
+3. Data types of parameters
+4. Return value type
+5. Write three examples
+6. In your own words and one sentence explain what this method does.
 
 Example:
 
