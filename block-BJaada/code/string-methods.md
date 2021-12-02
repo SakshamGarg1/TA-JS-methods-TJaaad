@@ -33,19 +33,54 @@ Example:
    - `charAt` accepts a index (number data type) and return the character on that index in the string.
 
 2. `toUpperCase`
-3. `toLowerCase`
-4. `trim`
-5. `trimEnd`
-6. `trimStart`
-7. `concat`
-8. `endsWith`
-9. `includes`
-10. `indexOf`
-11. `lastIndexOf`
-12. `padEnd`
-13. `padStart`
-14. `repeat`
-15. `replace`
-16. `slice`
-17. `split`
-18. `substring`
+3. let name = 'Arya Stark';
+     name.toUpperCase();
+     
+4. `toLowerCase`
+5. let name = 'Arya Stark';
+     name.toLowerCase();
+6. `trim`
+7. let name = '   Arya Stark   ';
+     name.trim();
+8. `trimEnd`
+9. let name = '   Arya Stark   ';
+     name.trimEnd();
+10. `trimStart`
+11. let name = '   Arya Stark   ';
+     name.trimStart();
+12. `concat`
+13. let name = 'A r y a S t a r k';
+     name.concat();
+14. `endsWith`
+15. let name = 'Arya Stark';
+     name.concat();
+16. `includes`
+17. let name = 'A r y a S t a r k';
+     name.concat();
+18. `indexOf`
+19. let name = 'Arya Stark';
+     name.indexOf(stark);
+20. `lastIndexOf`
+21. let name = 'Arya Stark';
+     name.lastIndexOf(S);
+22. `padEnd`
+23. let name = 'Arya Stark';
+     name.padEnd('5',.);
+24. `padStart`
+25. let name = 'Arya Stark';
+     name.padStart('5',.);
+26. `repeat`
+27. let name = 'Arya Stark';
+     name.repeat(2);
+28. `replace`
+29. let name = 'Arya Stark';
+     name.replace('A','S');
+30. `slice`
+  const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+  fruits.slice(1, 3);
+32. `split`
+33.  let str="i am a boy";
+34.  str.split("");
+35. `substring`
+36.  let str="i am a boy";
+34.  str.substring(2);
