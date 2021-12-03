@@ -8,6 +8,7 @@ Go to this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refere
 
 Only if you are done with step 1 you should go ahead.
 
+
 1. Practice it by yourself in console (2-3 times to understand)
 2. Data types of parameters
 3. Return value type
