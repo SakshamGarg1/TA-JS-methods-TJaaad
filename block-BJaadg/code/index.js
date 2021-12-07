@@ -7,16 +7,19 @@ let to = 'Arya Stark';
 /*
 
 1. Find the index of the first 'is' in the variable quote. And store it in a new variable named indexOfIs
-*/
 
+*/
+let indexOf= quote.indexOf('is');
 
 /*
 2. Find the character at the index indexOfIs (Problem 1) in quote.
 */
+quote.charAT('indesOfIs');
 
 /*
 3. Log the message saying `The index of first is in quote is 7`
 */
+console.log('The index of first is in quote is ${quote.charAT('indesOfIs')}');
 
 /*
 4. Log the message for first 6 characters of quote like this.
@@ -28,10 +31,17 @@ let to = 'Arya Stark';
   The character at index 5 is ' '
 */
 
+for(let i =0;i<6;i++){
+console.log("The Character at index ${i} and the ${quote[i]}")
+}
+
 /*
 5. Using the variable from , to and quote variable dispaly this message
   "Syrio Forel said There is only one thing we say to death: Not today to Arya Stark." (use concat method)
 */
+
+let final = from.concat("said",quote,"to",to);
+console.log(final);
 
 /*
 6. Does from, to and quote ends with "rk". Check all three.
@@ -56,10 +66,13 @@ let to = 'Arya Stark';
 /*
 11. Change the word "today" in quoteSplitted to "tomorrow" and join all the words to form a sentance.
 */
-
+let index = quoteSplitted.indexOf("today");
+quoteSplitted.[index]="tomorrow";
+quoteSplitted.join("");
 /*
 12. Find the index of second "o" in quote. Use indexOf
 */
+quote.indexOf('o');
 
 /*
 13. Find the last index of letter "a" in quote.
@@ -82,11 +95,14 @@ Store the output in a new variable
 /*
 17. Log the repeat of "Hello World!" 10 times.
 */
-
+let i = "Hello World!"
+for(i=0;i<=10;i++){
+console.log(i)
+}
 /*
 18. Replace today to tomorrow in quote.
 */
-
+quote.replace
 /*
 19. Replace Stark to Lannister in quoteTo
 */
