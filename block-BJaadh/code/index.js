@@ -2,6 +2,7 @@
 var numbers = [1, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6, 9];
 var strings = ['This', 'is', 'a', 'collection', 'of', 'words'];
 
+
 /*
 NOTE:
 While using methods like push, pop, sort etc it mutates the original array.
