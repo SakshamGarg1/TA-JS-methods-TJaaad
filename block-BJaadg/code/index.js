@@ -95,22 +95,26 @@ Store the output in a new variable
 /*
 17. Log the repeat of "Hello World!" 10 times.
 */
-let i = "Hello World!"
-for(i=0;i<=10;i++){
-console.log(i)
-}
+console.log('hello world!'.repeat(10));
 /*
 18. Replace today to tomorrow in quote.
 */
-quote.replace
+// quote.indexOf('today');
+// quote.index("tomorrow");
+// console.log(quote);
+quote.replace('today','tomorrow');
+
 /*
 19. Replace Stark to Lannister in quoteTo
 */
+quoteTo.replace('Stark','Lannister');
+
 
 /*
 20. Make the quote of length 30 and put ... at the end. (use slice)
 */
-
+let quote.splice(0,30)+".."; 
 /*
 21. Find out does quote, from, to starts with "A"
 */
+ 
