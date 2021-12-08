@@ -12,20 +12,30 @@ Clone the array before using sort method: [...arr]
 */
 
 // - Find the index of `101` in numbers
+numbers.indexOf('101')
 
 // - Find the last index of `9` in numbers
-
+numbers.lastindexOf('9');
 // - Convert value of strings array into a sentance like "This is a collection of words"
-
+strings.join(" ");
 // - Add two new words in the strings array "called" and "sentance"
+string.push('called');
+string.push('sentance');
 
 // - Again convert the updated array (strings) into sentance like "This is a collection of words called sentance"
+strings.join(' ')
 
 // - Remove the first word in the array (strings)
+strings.unshift();
 
 // - Find all the words that contain 'is' use string method 'includes'
+let allIS = string.filter((string) => 
+                         string.include('is')
+                         );
 
 // - Find all the words that contain 'is' use string method 'indexOf'
+let allISAgain = string.filter((string)=>
+                              string.includeOf('is') !==-1 );
 
 // - Check if all the numbers in numbers array are divisible by three use array method (every)
 
