@@ -19,6 +19,7 @@ let persons = [
 
 // Create an array peopleSex and store the value of sex key from persons array
 
+
 // Log the filtered named of people in peopleName that starts with 'J' or 'P'
 
 // Log the length of filtered named of people in peopleName that starts with 'A' and 'C'
