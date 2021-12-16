@@ -2,6 +2,7 @@
 
 function countAllPeople() {
   // your code goes here
+  let total 
 }
 
 
